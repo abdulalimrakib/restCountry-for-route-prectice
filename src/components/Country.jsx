@@ -17,7 +17,7 @@ const Country = (props) => {
         <h2 className="text-[36px] font-medium py-3">{common}</h2>
         <p>Population: {props.country.population}</p>
         <p>Official name: {official}</p>
-        <Link to = {`/home/${common}`}>
+        <Link to = {`/${common}`}>
           <button className="mt-5 text-white rounded-lg shadow-lg hover:text-gray-700 hover:bg-white py-1 px-5 text-[20px] font-bold bg-gray-700">
             Details
           </button>
